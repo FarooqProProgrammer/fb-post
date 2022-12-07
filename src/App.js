@@ -44,15 +44,15 @@ function App() {
             <div className="btns w-full h-[46px]  flex justify-center items-center">
                         <div className="like flex-1 h-[46px] ">
                         < AiFillLike/>
-                        <p>Like</p>
+                        <p  className='cursor-pointer'>Like</p>
                         </div>
                         <div className="like flex-1 h-[46px] ">
                             <FaComments/>
-                            <p>Comments</p>
+                            <p className='cursor-pointer'>Comments</p>
                       </div>
                       <div className="like flex-1 h-[46px] ">
                       <FaShareSquare/>
-                      <p>Shares</p>
+                      <p className='cursor-pointer'>Shares</p>
                       </div>
             </div>
         </div>
